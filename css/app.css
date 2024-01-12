@@ -218,9 +218,10 @@ html {
 }
 
 body {
-  background: url("../images/bgimage.webp");
-  background-size: contain;
-  background-repeat: repeat-y;
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 body::-webkit-scrollbar {
   background-color: #333;
