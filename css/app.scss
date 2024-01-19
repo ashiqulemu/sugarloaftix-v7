@@ -24,10 +24,10 @@ a {
 }
 
 .link {
-    color: #dba956;
+    color: #ffa50a;
 
     &:hover {
-        color: #333;
+        color: #000000;
     }
 }
 
@@ -1580,7 +1580,11 @@ input[type='checkbox'] {
 
  
 .ticket-row {
+    border: 2px solid #222121;
     &:hover {
-        background: #b0e1ff24 !important;
+        background: rgb(247 248 204 / 80%) !important;
+        .link{
+            color:black;
+        }
     }       
  }

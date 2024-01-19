@@ -12,10 +12,10 @@ a {
 }
 
 .link {
-  color: #dba956;
+  color: #ffa50a;
 }
 .link:hover {
-  color: #333;
+  color: #000000;
 }
 
 .txt-primary {
@@ -1197,6 +1197,12 @@ input[type=checkbox] {
   background: #181CE5;
 }
 
+.ticket-row {
+  border: 2px solid #222121;
+}
 .ticket-row:hover {
-  background: rgba(176, 225, 255, 0.1411764706) !important;
+  background: rgba(247, 248, 204, 0.8) !important;
+}
+.ticket-row:hover .link {
+  color: black;
 }/*# sourceMappingURL=app.css.map */
