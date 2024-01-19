@@ -1581,6 +1581,9 @@ input[type='checkbox'] {
  
 .ticket-row {
     border: 2px solid #222121;
+    img{
+       border: 5px solid;
+    }
     &:hover {
         background: rgb(247 248 204 / 80%) !important;
         .link{
